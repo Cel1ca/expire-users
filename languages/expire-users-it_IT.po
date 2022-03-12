@@ -421,14 +421,14 @@ msgstr "Scadenza: <strong>Mai</strong>"
 #: ../includes/expire-users.php:96
 #, php-format
 msgid "Your login details to %%sitename%% have expired"
-msgstr "Le tue credenziali di accesso al sito %%sitename%% sono scadute"
+msgstr "Alcuni documenti di volo caricati sul sito %%sitename%% scadranno entro 10 giorni."
 
 # @ expired-users
 #: ../includes/expire-users.php:109
 #, php-format
 msgid "Login details to %%sitename%% have expired (%%username%%)"
 msgstr ""
-"Le credenziali di accesso al sito %%sitename%% sono scadute (%%username%%)"
+"Alcuni documenti di volo di %%username%% caricati sul sito %%sitename%% scadranno entro 10 giorni."
 
 # @ expire-users
 #: ../includes/expire-users.php:160
