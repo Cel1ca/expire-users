@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Expire Users v0.9\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/expire-users\n"
 "POT-Creation-Date: 2014-05-15 10:31-0000\n"
-"PO-Revision-Date: 2014-12-03 10:40+0100\n"
+"PO-Revision-Date: 2022-03-12 19:00+0100\n"
 "Last-Translator: Marco <marco@blackstudio.it>\n"
 "Language-Team: Black Studio <info@blackstudio.it>\n"
 "Language: it_IT\n"
@@ -11,10 +11,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 3.0.1\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;"
+"_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: .\n"
 "X-Textdomain-Support: yes\n"
 "X-Poedit-SearchPath-0: .\n"
@@ -40,8 +40,7 @@ msgid "Edit"
 msgstr "Modifica"
 
 # @ expire-users
-#: ../admin/expire-user.php:131 ../admin/settings.php:111
-#: ../admin/settings.php:114
+#: ../admin/expire-user.php:131 ../admin/settings.php:111 ../admin/settings.php:114
 msgid "Expiry Date"
 msgstr "Data scadenza"
 
@@ -73,8 +72,8 @@ msgid "Don't change role"
 msgstr "Non cambiare ruolo"
 
 # @ expire-users
-#: ../admin/expire-user.php:171 ../admin/expire-user.php:174
-#: ../admin/settings.php:149 ../admin/settings.php:152
+#: ../admin/expire-user.php:171 ../admin/expire-user.php:174 ../admin/settings.php:149
+#: ../admin/settings.php:152
 msgid "Expire Actions"
 msgstr "Azioni alla scadenza"
 
@@ -89,8 +88,8 @@ msgid "Remove expiry details and allow user to continue to login"
 msgstr "Rimuovi la scadenza e permetti all'utente di continuare ad accedere"
 
 # @ expire-users
-#: ../admin/expire-user.php:187 ../admin/expire-user.php:190
-#: ../admin/settings.php:165 ../admin/settings.php:168
+#: ../admin/expire-user.php:187 ../admin/expire-user.php:190 ../admin/settings.php:165
+#: ../admin/settings.php:168
 msgid "Email Notifications"
 msgstr "Notifiche email"
 
@@ -187,63 +186,58 @@ msgstr "Annulla"
 # @ expire-users
 #: ../admin/help.php:37 ../admin/help.php:57
 msgid ""
-"<p>Activate and configure default expiry settings for users who register via "
-"the registration form.</p>"
+"<p>Activate and configure default expiry settings for users who register via the registration "
+"form.</p>"
 msgstr ""
-"<p>Attiva e configura le impostazioni di scadenza predefinite per gli utenti "
-"che si registrano tramite il modulo di registrazione.</p>"
+"<p>Attiva e configura le impostazioni di scadenza predefinite per gli utenti che si registrano "
+"tramite il modulo di registrazione.</p>"
 
 # @ expire-users
 #: ../admin/help.php:38 ../admin/help.php:58
 msgid ""
-"<p><strong>Expiry Date</strong><br />Set a user to nevr expire, expire after "
-"a period of time or on a specific date.</p>"
+"<p><strong>Expiry Date</strong><br />Set a user to nevr expire, expire after a period of time or "
+"on a specific date.</p>"
 msgstr ""
-"<p><strong>Data scadenza</strong><br />Imposta un utente con scadenza \"mai"
-"\", dopo un certo periodo oppure ad una data specifica.</p>"
+"<p><strong>Data scadenza</strong><br />Imposta un utente con scadenza \"mai\", dopo un certo "
+"periodo oppure ad una data specifica.</p>"
 
 # @ expire-users
 #: ../admin/help.php:39 ../admin/help.php:59
 msgid ""
-"<p><strong>Default to Role</strong><br />When a user expires, you can assign "
-"them a different role.</p>"
+"<p><strong>Default to Role</strong><br />When a user expires, you can assign them a different "
+"role.</p>"
 msgstr ""
-"<p><strong>Imposta al ruolo</strong><br />Quando un utente scade, puoi "
-"assegnargli un ruolo differente.</p>"
+"<p><strong>Imposta al ruolo</strong><br />Quando un utente scade, puoi assegnargli un ruolo "
+"differente.</p>"
 
 # @ expire-users
 #: ../admin/help.php:40 ../admin/help.php:60
-msgid ""
-"<p><strong>Expire Actions</strong><br />Other actions to trigger when a user "
-"expires:</p>"
+msgid "<p><strong>Expire Actions</strong><br />Other actions to trigger when a user expires:</p>"
 msgstr ""
-"<p><strong>Azioni alla scadenza</strong><br />Altre azioni da eseguire alla "
-"scadenza di un utente:</p>"
+"<p><strong>Azioni alla scadenza</strong><br />Altre azioni da eseguire alla scadenza di un utente:"
+"</p>"
 
 # @ expire-users
 #: ../admin/help.php:42 ../admin/help.php:62
 msgid "<li>replace user's password with a randomly generated one.</li>"
-msgstr ""
-"<li>sostituisci la password dell'utente con una generata casualmente.</li>"
+msgstr "<li>sostituisci la password dell'utente con una generata casualmente.</li>"
 
 # @ expire-users
 #: ../admin/help.php:43 ../admin/help.php:63
 msgid "<li>remove expiry details and allow user to continue to login.</li>"
-msgstr ""
-"<li>rimuovi la scadenza e permetti all'utente di continuare ad accedere.</li>"
+msgstr "<li>rimuovi la scadenza e permetti all'utente di continuare ad accedere.</li>"
 
 # @ expire-users
 #: ../admin/help.php:45
 #, php-format
 msgid ""
-"<p><strong>Notification Emails</strong><br />These emails are sent if you "
-"have checked the checkboxes on a user's profile. Notification messages are "
-"configured on the <a href=\"%s\">Expire Users settings</a> page.</p>"
+"<p><strong>Notification Emails</strong><br />These emails are sent if you have checked the "
+"checkboxes on a user's profile. Notification messages are configured on the <a href=\"%s\">Expire "
+"Users settings</a> page.</p>"
 msgstr ""
-"<p><strong>Notifiche email</strong><br />Questi messaggi sono inviati se hai "
-"selezionato le relative opzioni nei profili degli utenti. I messaggi possono "
-"essere configurata nella pagina <a href=\"%s\">Impostazioni scadenza utenti</"
-"a>.</p>"
+"<p><strong>Notifiche email</strong><br />Questi messaggi sono inviati se hai selezionato le "
+"relative opzioni nei profili degli utenti. I messaggi possono essere configurata nella pagina <a "
+"href=\"%s\">Impostazioni scadenza utenti</a>.</p>"
 
 # @ expire-users
 #: ../admin/help.php:56
@@ -253,11 +247,11 @@ msgstr "Impostazioni scadenza"
 # @ expire-users
 #: ../admin/help.php:65
 msgid ""
-"<p><strong>Notification Emails</strong><br />These emails are sent if you "
-"have checked the checkboxes on a user's profile.</p>"
+"<p><strong>Notification Emails</strong><br />These emails are sent if you have checked the "
+"checkboxes on a user's profile.</p>"
 msgstr ""
-"<p><strong>Notifiche email</strong><br />Questi messaggi sono inviati se hai "
-"selezionato le relative opzioni nei profili degli utenti.</p>"
+"<p><strong>Notifiche email</strong><br />Questi messaggi sono inviati se hai selezionato le "
+"relative opzioni nei profili degli utenti.</p>"
 
 # @ expire-users
 #: ../admin/help.php:80
@@ -301,11 +295,8 @@ msgstr "Notifica scadenza all'amministratore"
 
 # @ expire-users
 #: ../admin/notifications.php:34
-msgid ""
-"This email is sent to the WordPress admin email address when a user expires."
-msgstr ""
-"Questa email è inviata all'amministratore del sito WordPress quando un "
-"utente scade."
+msgid "This email is sent to the WordPress admin email address when a user expires."
+msgstr "Questa email è inviata all'amministratore del sito WordPress quando un utente scade."
 
 # @ expire-users
 #: ../admin/notifications.php:71
@@ -364,12 +355,10 @@ msgstr "Impostazioni scadenza utenti registrati"
 
 # @ expire-users
 #: ../admin/settings.php:105
-msgid ""
-"Automatically set expiry date for new users who register via the "
-"registration form."
+msgid "Automatically set expiry date for new users who register via the registration form."
 msgstr ""
-"Imposta automaticamente data di scadenza per i nuovi utenti che si "
-"registrano tramite il form di registrazione."
+"Imposta automaticamente data di scadenza per i nuovi utenti che si registrano tramite il form di "
+"registrazione."
 
 # @ expire-users
 #: ../admin/settings.php:194
@@ -378,17 +367,13 @@ msgstr "Notifiche email"
 
 # @ expire-users
 #: ../admin/settings.php:195
-msgid ""
-"These emails are sent if you have checked the checkboxes on a user's profile."
+msgid "These emails are sent if you have checked the checkboxes on a user's profile."
 msgstr ""
-"Questi messaggi sono inviati se hai selezionato le relative opzioni nei "
-"profili degli utenti."
+"Questi messaggi sono inviati se hai selezionato le relative opzioni nei profili degli utenti."
 
 # @ expire-users
 #: ../admin/settings.php:196
-msgid ""
-"You may use the following placeholders in the notification email messages "
-"below:"
+msgid "You may use the following placeholders in the notification email messages below:"
 msgstr "Puoi usare i seguenti segnaposto nei messaggi di notifica sottostanti:"
 
 # @ default
@@ -421,7 +406,7 @@ msgstr "Scadenza: <strong>Mai</strong>"
 #: ../includes/expire-users.php:96
 #, php-format
 msgid "Your login details to %%sitename%% have expired"
-msgstr "Alcuni documenti di volo caricati sul sito %%sitename%% scadranno entro 10 giorni."
+msgstr "Alcuni documenti di volo caricati sul sito %%sitename%% scadranno entro 10 giorni"
 
 # @ expired-users
 #: ../includes/expire-users.php:109
@@ -439,12 +424,10 @@ msgstr "Il tuo accesso al sito %%sitename%% è scaduto."
 # @ expire-users
 #: ../includes/expire-users.php:167
 #, php-format
-msgid ""
-"Access to %%sitename%% has expired for %%name%% (%%username%%) on "
-"%%expirydate%%"
+msgid "Access to %%sitename%% has expired for %%name%% (%%username%%) on %%expirydate%%"
 msgstr ""
-"L'accesso al sito %%sitename%% è scaduto per l'utente %%name%% (%%username"
-"%%) in data %%expirydate%%"
+"L'accesso al sito %%sitename%% è scaduto per l'utente %%name%% (%%username%%) in data %%expirydate"
+"%%"
 
 # @ expire-users
 #: ../includes/expire-users.php:185
@@ -454,16 +437,16 @@ msgstr "<strong>ERRORE</strong>: Il tuo account utente è scaduto."
 # @ expire-users
 #: ../includes/expire-users.php:198
 msgid ""
-"<strong>ERROR</strong>: Your user details have expired so you are no longer "
-"able to reset your password."
+"<strong>ERROR</strong>: Your user details have expired so you are no longer able to reset your "
+"password."
 msgstr ""
-"<strong>ERRORE</strong>: Il tuo account utente è scaduto per cui non puoi "
-"più effettuare il recupero password."
+"<strong>ERRORE</strong>: Il tuo account utente è scaduto per cui non puoi più effettuare il "
+"recupero password."
 
 # @ expire-users
 #: ../includes/shortcodes.php:22
 msgid "M d, Y"
-msgstr "j d Y"
+msgstr "j d, Y"
 
 # @ expire-users
 #: ../includes/shortcodes.php:23
